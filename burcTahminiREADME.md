@@ -30,7 +30,7 @@ public class burcTahmini {
         } else if (((month == 1) && (day >=22) && (day <=31)) || ((month == 2) && (day >= 1) && (day <=19))) {
             System.out.print("BURÇ: KOVA");
         } else if (((month == 2) && (day >=20) && (day <=28)) || ((month == 3) && (day >= 1) && (day <=20))) {
-            System.out.print("BURÇ: İKİZLER");
+            System.out.print("BURÇ: BALIK");
         }
     }
 }
