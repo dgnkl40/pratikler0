@@ -10,6 +10,7 @@ public class TahminOyunu {
         int tahmin;
         int hak = 0 ;
         Scanner girdi = new Scanner(System.in);
+        System.out.println((hak+1)+".Tahmin Oyunu Başlıyor !!!");
         while (hak < 7 ){
             System.out.println("Tahmini Girin: ");
             tahmin = girdi.nextInt();
